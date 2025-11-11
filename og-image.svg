@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .title { font-family: 'Cinzel', serif; font-size: 72px; font-weight: 700; letter-spacing: 0.1em; text-anchor: middle; fill: #4a2c2a; }
+            .subtitle { font-family: 'EB Garamond', serif; font-size: 36px; text-anchor: middle; fill: #4a2c2a; }
+            .domain { font-family: 'EB Garamond', serif; font-size: 28px; font-style: italic; text-anchor: middle; fill: #4a2c2a; }
+        </style>
+    </defs>
+    <rect width="1200" height="630" fill="#fdf5e6"/>
+    <text x="600" y="250" class="title">Gerolamo Cardano</text>
+    <text x="600" y="320" class="subtitle">(1501 – 1576)</text>
+    <line x1="300" y1="380" x2="900" y2="380" stroke="#4a2c2a" stroke-width="2"/>
+    <text x="600" y="440" class="subtitle">A Renaissance Polymath</text>
+    <text x="600" y="550" class="domain">cardano.page</text>
+</svg>
