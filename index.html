@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://cardano.ad/#content",
+          "url": "https://cardano.ad",
+          "name": "The Life & Times of Gerolamo Cardano (1501-1576)",
+          "description": "A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.",
+          "inLanguage": "en-US",
+          "datePublished": "2024-12-01",
+          "publisher": { "@id": "https://unearth.im/#organization" },
+          "isPartOf": { "@id": "https://cardano.ad/#website" },
+          "author": [
+            { "@id": "https://josiest.com/#person" },
+            { "@id": "https://felixvelas.co/#person" }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://cardano.ad/#website",
+          "url": "https://cardano.ad",
+          "name": "cardano.ad",
+          "publisher": { "@id": "https://unearth.im/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://unearth.im/#organization",
+          "name": "unearth.im",
+          "url": "https://unearth.im",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://unearth.im/favicon-32x32.png"
+          },
+          "foundingDate": "2024",
+          "sameAs": [
+            "https://twitter.com/unearthim",
+            "https://github.com/unearthim"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://josiest.com/#person",
+          "name": "Josie Jefferson",
+          "url": "https://josiest.com",
+          "jobTitle": "Digital Archaeologist",
+          "affiliation": { "@id": "https://unearth.im/#organization" },
+          "sameAs": ["https://notjojo.im"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://felixvelas.co/#person",
+          "name": "Felix Velasco",
+          "url": "https://felixvelas.co",
+          "jobTitle": "Trust Architect",
+          "affiliation": { "@id": "https://unearth.im/#organization" },
+          "sameAs": ["https://www.linkedin.com/in/felix-velasco-b793015"]
+        }
+      ]
+    }
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -199,8 +262,13 @@
 
         <!-- Footer with Disclaimer -->
         <footer class="text-center mt-12">
-            <p class="text-sm italic text-gray-600 px-4">
+            <p class="text-sm italic text-gray-600 px-4 mb-4">
                 This website is a non-commercial, educational tribute to the 16th-century scholar Gerolamo Cardano. It is not affiliated with, nor endorsed by, any modern commercial entity.
+            </p>
+            <p class="text-xs text-gray-500">
+                <small>
+                    a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-700">liminal mind meld</a></b> collaboration: digital monument by <b><a href="https://unearth.im" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-700">unearth.im</a></b> | <b><a href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-700">archive & anvil</a></b>
+                </small>
             </p>
         </footer>
 
