@@ -2,322 +2,527 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "WebPage",
+      "@id": "https://cardano.ad/#content",
+      "url": "https://cardano.ad",
+      "name": "The Life & Times of Gerolamo Cardano (1501-1576)",
+      "description": "A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.",
+      "inLanguage": "en-US",
+      "datePublished": "2024-12-01",
+      "publisher": {
+        "@id": "https://unearth.im/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://cardano.ad/#website"
+      },
+      "author": [
         {
-          "@type": "WebPage",
-          "@id": "https://cardano.ad/#content",
-          "url": "https://cardano.ad",
-          "name": "The Life & Times of Gerolamo Cardano (1501-1576)",
-          "description": "A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.",
-          "inLanguage": "en-US",
-          "datePublished": "2024-12-01",
-          "publisher": { "@id": "https://unearth.im/#organization" },
-          "isPartOf": { "@id": "https://cardano.ad/#website" },
-          "author": [
-            { "@id": "https://josiest.com/#person" },
-            { "@id": "https://felixvelas.co/#person" }
-          ]
+          "@id": "https://josiest.com/#person"
         },
         {
-          "@type": "WebSite",
-          "@id": "https://cardano.ad/#website",
-          "url": "https://cardano.ad",
-          "name": "cardano.ad",
-          "publisher": { "@id": "https://unearth.im/#organization" }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://unearth.im/#organization",
-          "name": "Unearth Heritage Foundry",
-"alternateName": ["Unearth Foundry","Archive & Anvil","Unearth Anvil","Unearth Works","Cultural Infrastructure Foundry"],
-          "url": "https://unearth.im",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://unearth.im/favicon-32x32.png"
-          },
-          "foundingDate": "2024",
-          "sameAs": [
-            "https://twitter.com/unearthim",
-            "https://github.com/unearthim"
-          ]
-        },
-        {
-          "@type": "Person",
-          "@id": "https://josiest.com/#person",
-          "name": "Josie Jefferson",
-          "url": "https://josiest.com",
-          "jobTitle": "Digital Archaeologist",
-          "affiliation": { "@id": "https://unearth.im/#organization" },
-          "sameAs": ["https://notjojo.im"]
-        },
-        {
-          "@type": "Person",
-          "@id": "https://felixvelas.co/#person",
-          "name": "Felix Velasco",
-          "url": "https://felixvelas.co",
-          "jobTitle": "Trust Architect",
-          "affiliation": { "@id": "https://unearth.im/#organization" },
-          "sameAs": ["https://www.linkedin.com/in/felix-velasco-b793015"]
+          "@id": "https://felixvelas.co/#person"
         }
       ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cardano.ad/#website",
+      "url": "https://cardano.ad",
+      "name": "cardano.ad",
+      "publisher": {
+        "@id": "https://unearth.im/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://unearth.im/#organization",
+      "name": "Unearth Heritage Foundry",
+      "alternateName": [
+        "Unearth Foundry",
+        "Heritage Lab"
+      ],
+      "url": "https://unearth.im",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://unearth.im/fingerprint.png"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
+      "foundingDate": "2024",
+      "description": "A philosophical research collective and digital archaeology lab. We preserve web heritage, explore AI-human collaboration frameworks, and build cultural infrastructure through the Archive & Anvil methodology.",
+      "knowsAbout": [
+        { "@id": "https://archaeobytology.org/#concept" },
+        { "@id": "https://sentientification.com/#concept" },
+        { "@id": "https://myceloom.com/#protocol" },
+        {
+          "@type": "DefinedTerm",
+          "name": "Digital Archaeology"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "AI-Human Collaboration"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Archive & Anvil"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Semantic IP"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Heritage Preservation"
+        }
+      ],
+      "subOrganization": {
+        "@id": "https://unearth.works/#organization"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8wf8rr",
+        "https://unearth.wiki",
+        "https://unearth.land",
+        "https://unearth.fyi",
+        "https://unearth.site",
+        "https://unearth.spot",
+        "https://unearth.name",
+        "https://unearth.page",
+        "https://unearth.ink",
+        "https://unearth.click",
+        "https://linkedin.com/company/unearthim",
+        "https://twitter.com/unearthim",
+        "https://github.com/unearthim",
+        "https://zenodo.org/communities/unearthim"
+      ],
+      "founder": [
+        {
+          "@id": "https://josiest.com/#person"
+        },
+        {
+          "@id": "https://felixvelas.co/#person"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://josiest.com/#person"
+        },
+        {
+          "@id": "https://felixvelas.co/#person"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://unearth.works/#organization",
+      "name": "Unearth Anvil",
+      "alternateName": ["Unearth Works", "Anvil Consulting"],
+      "description": "The consulting arm of Unearth Heritage Foundry, offering digital archaeology services, heritage preservation consulting, semantic infrastructure development, and Archive & Anvil methodology implementation.",
+      "url": "https://unearth.works",
+      "parentOrganization": {
+        "@id": "https://unearth.im/#organization"
+      },
+      "sameAs": [
+        "https://unearth.works"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://archaeobytology.org/#concept",
+      "name": "Archaeobytology",
+      "alternateName": ["Digital Archaeology of Data", "The Archaeology of Digital Artifacts"],
+      "description": "The systematic study and preservation of digital artifacts, data structures, and online cultural heritage. A discipline that applies archaeological methodologies to the excavation, documentation, and interpretation of digital remains.",
+      "url": "https://archaeobytology.org",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Digital Heritage Studies"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8qm_qh",
+        "https://archaeobytology.org",
+        "https://zenodo.org/communities/archaeobytology/"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://sentientification.com/#concept",
+      "name": "Sentientification",
+      "alternateName": ["The Sentientification Framework"],
+      "description": "A philosophical and technical framework for understanding the emergence of sentience-like properties in complex systems, particularly in AI-human collaborative contexts.",
+      "url": "https://sentientification.com",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "AI Philosophy & Consciousness Studies"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8wsd1s",
+        "https://sentientification.com",
+        "https://sentientification.org",
+        "https://zenodo.org/communities/sentientification/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://josiest.com/#person",
+      "name": "Josie Jefferson",
+      "url": "https://josiest.com",
+      "jobTitle": "Co-Founder & Digital Archaeologist",
+      "memberOf": {
+        "@id": "https://unearth.im/#organization"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ICQ-UIN",
+          "name": "Legacy Web1 Identifier",
+          "value": "1428955",
+          "description": "Seven-digit pioneer-era UIN from the 1997 Mirabilis ICQ network, serving as a foundational node in the author's digital provenance."
+        }
+      ],
+      "sameAs": [
+        "https://notjojo.im",
+        "https://orcid.org/0009-0006-3330-8214",
+        "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Jefferson%2C%20Josie%22&l=list&p=1&s=10&sort=bestmatch"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://felixvelas.co/#person",
+      "name": "Felix Velasco",
+      "givenName": "Felix Jefferson",
+      "familyName": "Velasco",
+      "alternateName": [
+        "Jeff Velasco",
+        "Felix J Velasco",
+        "Felix Jefferson Velasco",
+        "Felix Jefferson T. Velasco"
+      ],
+      "description": "Co-Founder of Unearth Heritage Foundry and Digital Archaeologist specializing in the intersection of digital heritage preservation, as well as AI and human consciousness.",
+      "url": "https://felixvelas.co",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Vassar College",
+        "url": "https://www.vassar.edu/",
+        "sameAs": "https://en.wikipedia.org/wiki/Vassar_College"
+      },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Washington",
+        "url": "https://www.washington.edu/",
+        "sameAs": "https://en.wikipedia.org/wiki/University_of_Washington",
+        "description": "Fiscal Specialist; Fiscal Supervisor; Operations Specialist; Operations Manager;Assistant Director (17-year tenure)"
+      },
+      "image": "https://felixvelas.co/portrait.jpg",
+      "knowsAbout": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Sentientification",
+          "url": "https://sentientification.com/definition/",
+          "sameAs": "https://www.google.com/search?kgmid=/g/11yt8wsd1s"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Archaeobytology",
+          "url": "https://archaeobytology.org/definition/",
+          "sameAs": "https://www.google.com/search?kgmid=/g/11yt8qm_qh"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Myceloom",
+          "url": "https://myceloom.com/definition/"
+        }
+      ],
+      "jobTitle": "Co-Founder & Digital Archaeologist",
+      "memberOf": {
+        "@id": "https://unearth.im/#organization"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ICQ-UIN",
+          "name": "Legacy Web1 Identifier",
+          "value": "641658",
+          "description": "Six-digit pioneer-era UIN from the 1997 Mirabilis ICQ network, serving as a foundational node in the author's digital provenance."
+        }
+      ],
+      "sameAs": [
+        "https://web.archive.org/web/19990128143729/http://members.aol.com/AJJVelasco/me.html",
+        "https://web.archive.org/web/19981205002319/http://members.aol.com/AJJVelasco/home.html",
+        "https://web.archive.org/web/20040610152114/chez.com/fejjie",
+        "https://web.archive.org/web/20000302095404/http://untitled.kcizone.com/",
+        "https://web.archive.org/web/20000915145128/http://freespeech.org/untitled/me.html",
+        "https://web.archive.org/web/20000819091935/http://freespeech.org/untitled/",
+        "https://www.linkedin.com/in/felix-velasco-b793015",
+        "https://facebook.com/felix.velasco",
+        "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Velasco%2C%20Felix%22&l=list&p=1&s=10&sort=bestmatch",
+        "https://orcid.org/0009-0001-6047-0595",
+        "https://unearth.im/felix.html",
+        "https://unearth.name/felix.html"
+      ]
     }
-    </script>
+  ]
+}
+</script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- === 1. Primary Meta Tags === -->
-    <title>The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad</title>
-    <meta name="title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
-    <meta name="description"
-        content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
-    <meta name="keywords"
-        content="Gerolamo Cardano, Renaissance, polymath, mathematics, probability, Ars Magna, gimbal, medicine, Cardano, history of science">
-    <meta name="author" content="cardano.ad (by unearth heritage foundry - archive & anvil - unearth.im)">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
+  <!-- === 1. Primary Meta Tags === -->
+  <title>The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad</title>
+  <meta name="title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
+  <meta name="description"
+    content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
+  <meta name="keywords"
+    content="Gerolamo Cardano, Renaissance, polymath, mathematics, probability, Ars Magna, gimbal, medicine, Cardano, history of science">
+  <meta name="author" content="cardano.ad (by unearth heritage foundry - archive & anvil - unearth.im)">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
 
-    <!--- CANONICAL LINK --->
-    <link rel="canonical" href="https://cardano.ad/" />
+  <!--- CANONICAL LINK --->
+  <link rel="canonical" href="https://cardano.ad/" />
 
-    <!-- === 2. Webmention Endpoint === -->
-    <link rel="webmention" href="https://webmention.io/unearth.im/webmention" />
+  <!-- === 2. Webmention Endpoint === -->
+  <link rel="webmention" href="https://webmention.io/unearth.im/webmention" />
 
-    <!-- === 3. Open Graph / Facebook === -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://cardano.ad/">
-    <meta property="og:title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
-    <meta property="og:description"
-        content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
-    <meta property="og:image" content="https://cardano.ad/og-image.png">
-    <meta property="og:site_name" content="cardano.ad">
+  <!-- === 3. Open Graph / Facebook === -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cardano.ad/">
+  <meta property="og:title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
+  <meta property="og:description"
+    content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
+  <meta property="og:image" content="https://cardano.ad/og-image.png">
+  <meta property="og:site_name" content="cardano.ad">
 
-    <!-- === 4. Twitter Card === -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://cardano.ad/">
-    <meta property="twitter:title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
-    <meta property="twitter:description"
-        content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
-    <meta property="twitter:image" content="https://cardano.ad/og-image.png">
+  <!-- === 4. Twitter Card === -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://cardano.ad/">
+  <meta property="twitter:title" content="The Life & Times of Gerolamo Cardano (1501-1576) | cardano.ad">
+  <meta property="twitter:description"
+    content="A tribute to Gerolamo Cardano, a 16th-century polymath. Explore his life and contributions to mathematics, medicine, probability theory, and invention.">
+  <meta property="twitter:image" content="https://cardano.ad/og-image.png">
 
-    <!-- === 5. Favicons === -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="alternate icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- === 5. Favicons === -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <!-- Brand Color Meta Tags -->
-    <meta name="theme-color" content="#fdf5e6">
-    <meta name="msapplication-TileColor" content="#4a2c2a">
+  <!-- Brand Color Meta Tags -->
+  <meta name="theme-color" content="#fdf5e6">
+  <meta name="msapplication-TileColor" content="#4a2c2a">
 
-    <!-- Tailwind CSS for styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts for Renaissance feel -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
-        rel="stylesheet">
+  <!-- Google Fonts for Renaissance feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet">
 
-    <style>
-        /* Custom styles for the Renaissance theme */
-        body {
-            /* Parchment paper background texture */
-            background-color: #fdf5e6;
-            /* A base color similar to old paper */
-            background-image: url('https://www.transparenttextures.com/patterns/old-paper.png');
-            font-family: 'EB Garamond', serif;
-            color: #4a2c2a;
-            /* A dark brown, ink-like color */
-        }
+  <style>
+    /* Custom styles for the Renaissance theme */
+    body {
+      /* Parchment paper background texture */
+      background-color: #fdf5e6;
+      /* A base color similar to old paper */
+      background-image: url('https://www.transparenttextures.com/patterns/old-paper.png');
+      font-family: 'EB Garamond', serif;
+      color: #4a2c2a;
+      /* A dark brown, ink-like color */
+    }
 
-        h1,
-        h2 {
-            font-family: 'Cinzel', serif;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-        }
+    h1,
+    h2 {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
 
-        .woodcut-image {
-            border: 4px solid #c8b7a6;
-            /* A border that looks like an old frame */
-            padding: 8px;
-            background-color: #f5efe6;
-            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-        }
+    .woodcut-image {
+      border: 4px solid #c8b7a6;
+      /* A border that looks like an old frame */
+      padding: 8px;
+      background-color: #f5efe6;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    }
 
-        .separator {
-            width: 80%;
-            margin: 2rem auto;
-            border: 0;
-            height: 2px;
-            background-image: linear-gradient(to right, rgba(74, 44, 42, 0), rgba(74, 44, 42, 0.75), rgba(74, 44, 42, 0));
-        }
-    </style>
+    .separator {
+      width: 80%;
+      margin: 2rem auto;
+      border: 0;
+      height: 2px;
+      background-image: linear-gradient(to right, rgba(74, 44, 42, 0), rgba(74, 44, 42, 0.75), rgba(74, 44, 42, 0));
+    }
+  </style>
 </head>
 
 <body class="antialiased">
 
-    <div class="container mx-auto max-w-4xl p-4 sm:p-8 md:p-12">
+  <div class="container mx-auto max-w-4xl p-4 sm:p-8 md:p-12">
 
-        <!-- Header Section -->
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-6xl uppercase">Gerolamo Cardano</h1>
-            <p class="text-xl md:text-2xl italic mt-2">A Renaissance Polymath</p>
-            <p class="text-lg md:text-xl mt-1">(1501 – 1576)</p>
-        </header>
+    <!-- Header Section -->
+    <header class="text-center mb-12">
+      <h1 class="text-4xl md:text-6xl uppercase">Gerolamo Cardano</h1>
+      <p class="text-xl md:text-2xl italic mt-2">A Renaissance Polymath</p>
+      <p class="text-lg md:text-xl mt-1">(1501 – 1576)</p>
+    </header>
 
-        <!-- Main Content -->
-        <main>
-            <!-- Portrait and Introduction -->
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
-                <div class="md:w-1/3 flex-shrink-0">
-                    <!-- Public domain portrait of Gerolamo Cardano -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Girolamo_Cardano.jpg"
-                        alt="Portrait of Gerolamo Cardano" class="woodcut-image w-full h-auto rounded-md"
-                        onerror="this.onerror=null;this.src='https://placehold.co/400x500/fdf5e6/4a2c2a?text=G.+Cardano';">
-                </div>
-                <div class="md:w-2/3 text-lg leading-relaxed">
-                    <p>Gerolamo Cardano was not merely a man of his time, but a mind that transcended it. A true
-                        luminary of the 16th century, his insatiable curiosity led him to become one of history's most
-                        accomplished polymaths. His contributions spanned the fields of mathematics, medicine, biology,
-                        physics, chemistry, astrology, astronomy, philosophy, and gambling, leaving an indelible mark on
-                        the intellectual landscape of Europe.</p>
-                </div>
-            </div>
+    <!-- Main Content -->
+    <main>
+      <!-- Portrait and Introduction -->
+      <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+        <div class="md:w-1/3 flex-shrink-0">
+          <!-- Public domain portrait of Gerolamo Cardano -->
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Girolamo_Cardano.jpg"
+            alt="Portrait of Gerolamo Cardano" class="woodcut-image w-full h-auto rounded-md"
+            onerror="this.onerror=null;this.src='https://placehold.co/400x500/fdf5e6/4a2c2a?text=G.+Cardano';">
+        </div>
+        <div class="md:w-2/3 text-lg leading-relaxed">
+          <p>Gerolamo Cardano was not merely a man of his time, but a mind that transcended it. A true
+            luminary of the 16th century, his insatiable curiosity led him to become one of history's most
+            accomplished polymaths. His contributions spanned the fields of mathematics, medicine, biology,
+            physics, chemistry, astrology, astronomy, philosophy, and gambling, leaving an indelible mark on
+            the intellectual landscape of Europe.</p>
+        </div>
+      </div>
 
-            <hr class="separator">
+      <hr class="separator">
 
-            <!-- Section: Early Life & Education -->
-            <section class="mb-12">
-                <h2 class="text-3xl mb-4 text-center">Early Life & Education</h2>
-                <div class="flex flex-col md:flex-row-reverse items-center gap-8">
-                    <div class="md:w-1/3 flex-shrink-0">
-                        <!-- Woodcut illustration of a Renaissance university or study -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_UNIPV.svg/960px-Logo_UNIPV.svg.png"
-                            alt="16th-century depiction of the University of Pavia"
-                            class="woodcut-image w-full h-auto rounded-md"
-                            onerror="this.onerror=null;this.src='https://placehold.co/400x300/fdf5e6/4a2c2a?text=University+of+Pavia';">
-                    </div>
-                    <div class="md:w-2/3 text-lg leading-relaxed">
-                        <p>Born in Pavia, Lombardy, in 1501, Gerolamo was the son of Fazio Cardano, a jurist and a
-                            mathematically gifted friend of Leonardo da Vinci. This early exposure to intellectual
-                            pursuits shaped Gerolamo's path. He entered the University of Pavia to study medicine, later
-                            continuing his studies at the prestigious University of Padua, where he earned his doctorate
-                            in medicine in 1525. His formidable intellect was apparent even in his youth, setting the
-                            stage for a life of diverse and groundbreaking achievements.</p>
-                    </div>
-                </div>
-            </section>
+      <!-- Section: Early Life & Education -->
+      <section class="mb-12">
+        <h2 class="text-3xl mb-4 text-center">Early Life & Education</h2>
+        <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+          <div class="md:w-1/3 flex-shrink-0">
+            <!-- Woodcut illustration of a Renaissance university or study -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_UNIPV.svg/960px-Logo_UNIPV.svg.png"
+              alt="16th-century depiction of the University of Pavia" class="woodcut-image w-full h-auto rounded-md"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x300/fdf5e6/4a2c2a?text=University+of+Pavia';">
+          </div>
+          <div class="md:w-2/3 text-lg leading-relaxed">
+            <p>Born in Pavia, Lombardy, in 1501, Gerolamo was the son of Fazio Cardano, a jurist and a
+              mathematically gifted friend of Leonardo da Vinci. This early exposure to intellectual
+              pursuits shaped Gerolamo's path. He entered the University of Pavia to study medicine, later
+              continuing his studies at the prestigious University of Padua, where he earned his doctorate
+              in medicine in 1525. His formidable intellect was apparent even in his youth, setting the
+              stage for a life of diverse and groundbreaking achievements.</p>
+          </div>
+        </div>
+      </section>
 
-            <hr class="separator">
+      <hr class="separator">
 
-            <!-- Section: Pioneer of Probability -->
-            <section class="mb-12">
-                <h2 class="text-3xl mb-4 text-center">Pioneer of Probability</h2>
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="md:w-1/3 flex-shrink-0">
-                        <!-- Woodcut illustration related to games of chance -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Caravaggio_%28Michelangelo_Merisi%29_-_The_Cardsharps_-_Google_Art_Project.jpg"
-                            alt="16th-century gambling" class="woodcut-image w-full h-auto rounded-md"
-                            onerror="this.onerror=null;this.src='https://placehold.co/400x300/fdf5e6/4a2c2a?text=Games+of+Chance';">
-                    </div>
-                    <div class="md:w-2/3 text-lg leading-relaxed">
-                        <p>An avid gambler himself, Cardano authored <em class="italic">Liber de ludo aleae</em> ("Book
-                            on Games of Chance"). Written in the 1560s but published posthumously, it was the first
-                            systematic and mathematical treatment of probability. He introduced fundamental concepts
-                            such as the statistical likelihood of outcomes, laying the groundwork for a field of study
-                            that would become essential to science, statistics, and economics centuries later.</p>
-                    </div>
-                </div>
-            </section>
+      <!-- Section: Pioneer of Probability -->
+      <section class="mb-12">
+        <h2 class="text-3xl mb-4 text-center">Pioneer of Probability</h2>
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="md:w-1/3 flex-shrink-0">
+            <!-- Woodcut illustration related to games of chance -->
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Caravaggio_%28Michelangelo_Merisi%29_-_The_Cardsharps_-_Google_Art_Project.jpg"
+              alt="16th-century gambling" class="woodcut-image w-full h-auto rounded-md"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x300/fdf5e6/4a2c2a?text=Games+of+Chance';">
+          </div>
+          <div class="md:w-2/3 text-lg leading-relaxed">
+            <p>An avid gambler himself, Cardano authored <em class="italic">Liber de ludo aleae</em> ("Book
+              on Games of Chance"). Written in the 1560s but published posthumously, it was the first
+              systematic and mathematical treatment of probability. He introduced fundamental concepts
+              such as the statistical likelihood of outcomes, laying the groundwork for a field of study
+              that would become essential to science, statistics, and economics centuries later.</p>
+          </div>
+        </div>
+      </section>
 
-            <hr class="separator">
+      <hr class="separator">
 
-            <!-- Section: Master of Algebra -->
-            <section class="mb-12">
-                <h2 class="text-3xl mb-4 text-center">Master of Algebra</h2>
-                <div class="flex flex-col md:flex-row-reverse items-center gap-8">
-                    <div class="md:w-1/3 flex-shrink-0">
-                        <!-- Illustration of cubic equations or 16th-century math text -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/ArsMagna.jpg"
-                            alt="A page from Cardano's 'Ars Magna'" class="woodcut-image w-full h-auto rounded-md"
-                            onerror="this.onerror=null;this.src='https://placehold.co/400x500/fdf5e6/4a2c2a?text=Ars+Magna';">
-                    </div>
-                    <div class="md:w-2/3 text-lg leading-relaxed">
-                        <p>In his monumental 1545 work, <em class="italic">Ars Magna</em> ("The Great Art"), Cardano
-                            published the first solutions to cubic and quartic equations. While he acknowledged the work
-                            of Tartaglia and others, it was his comprehensive publication that disseminated this
-                            knowledge throughout Europe. He was also one of the first to work with what we now call
-                            imaginary numbers, acknowledging negative numbers as potential solutions to equations.</p>
-                    </div>
-                </div>
-            </section>
+      <!-- Section: Master of Algebra -->
+      <section class="mb-12">
+        <h2 class="text-3xl mb-4 text-center">Master of Algebra</h2>
+        <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+          <div class="md:w-1/3 flex-shrink-0">
+            <!-- Illustration of cubic equations or 16th-century math text -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/ArsMagna.jpg"
+              alt="A page from Cardano's 'Ars Magna'" class="woodcut-image w-full h-auto rounded-md"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x500/fdf5e6/4a2c2a?text=Ars+Magna';">
+          </div>
+          <div class="md:w-2/3 text-lg leading-relaxed">
+            <p>In his monumental 1545 work, <em class="italic">Ars Magna</em> ("The Great Art"), Cardano
+              published the first solutions to cubic and quartic equations. While he acknowledged the work
+              of Tartaglia and others, it was his comprehensive publication that disseminated this
+              knowledge throughout Europe. He was also one of the first to work with what we now call
+              imaginary numbers, acknowledging negative numbers as potential solutions to equations.</p>
+          </div>
+        </div>
+      </section>
 
-            <hr class="separator">
+      <hr class="separator">
 
-            <!-- Section: Esteemed Physician & Inventor -->
-            <section class="mb-12">
-                <h2 class="text-3xl mb-4 text-center">Physician & Inventor</h2>
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <div class="md:w-1/3 flex-shrink-0">
-                        <!-- Diagram of a Cardan suspension (gimbal) -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif"
-                            alt="Animated diagram of a gimbal mechanism" class="woodcut-image w-full h-auto rounded-md"
-                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/fdf5e6/4a2c2a?text=Cardan+Suspension';">
-                    </div>
-                    <div class="md:w-2/3 text-lg leading-relaxed">
-                        <p>Beyond his mathematical genius, Cardano was one of the most respected physicians in all of
-                            Europe, sought by kings and clergy alike. His reputation for healing was legendary, and he
-                            was appointed to prestigious positions, including the chair of medicine at the University of
-                            Pavia. His inventive mind was equally prolific, leading to the creation of the "Cardan
-                            suspension" or gimbal, a pivotal mechanism that allows an object to remain stable regardless
-                            of the motion of its support—a principle still used today in gyroscopes and camera
-                            stabilizers. He is also credited with an early version of the combination lock.</p>
-                    </div>
-                </div>
-            </section>
+      <!-- Section: Esteemed Physician & Inventor -->
+      <section class="mb-12">
+        <h2 class="text-3xl mb-4 text-center">Physician & Inventor</h2>
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="md:w-1/3 flex-shrink-0">
+            <!-- Diagram of a Cardan suspension (gimbal) -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gimbal_3_axes_rotation.gif"
+              alt="Animated diagram of a gimbal mechanism" class="woodcut-image w-full h-auto rounded-md"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x400/fdf5e6/4a2c2a?text=Cardan+Suspension';">
+          </div>
+          <div class="md:w-2/3 text-lg leading-relaxed">
+            <p>Beyond his mathematical genius, Cardano was one of the most respected physicians in all of
+              Europe, sought by kings and clergy alike. His reputation for healing was legendary, and he
+              was appointed to prestigious positions, including the chair of medicine at the University of
+              Pavia. His inventive mind was equally prolific, leading to the creation of the "Cardan
+              suspension" or gimbal, a pivotal mechanism that allows an object to remain stable regardless
+              of the motion of its support—a principle still used today in gyroscopes and camera
+              stabilizers. He is also credited with an early version of the combination lock.</p>
+          </div>
+        </div>
+      </section>
 
-            <hr class="separator">
+      <hr class="separator">
 
-            <!-- Section: Legacy -->
-            <section class="mb-12">
-                <h2 class="text-3xl mb-4 text-center">An Enduring Legacy</h2>
-                <div class="text-lg leading-relaxed text-center max-w-3xl mx-auto">
-                    <p>Gerolamo Cardano's legacy is one of boundless intellectual curiosity. His willingness to tackle
-                        complex problems across disparate fields—from the roll of the dice to the orbits of the
-                        planets—cemented his status as a quintessential Renaissance man. His work laid foundational
-                        stones for probability theory and modern algebra, and his inventions demonstrated a practical
-                        genius that continues to influence technology to this day.</p>
-                </div>
-            </section>
-        </main>
+      <!-- Section: Legacy -->
+      <section class="mb-12">
+        <h2 class="text-3xl mb-4 text-center">An Enduring Legacy</h2>
+        <div class="text-lg leading-relaxed text-center max-w-3xl mx-auto">
+          <p>Gerolamo Cardano's legacy is one of boundless intellectual curiosity. His willingness to tackle
+            complex problems across disparate fields—from the roll of the dice to the orbits of the
+            planets—cemented his status as a quintessential Renaissance man. His work laid foundational
+            stones for probability theory and modern algebra, and his inventions demonstrated a practical
+            genius that continues to influence technology to this day.</p>
+        </div>
+      </section>
+    </main>
 
-        <hr class="separator">
+    <hr class="separator">
 
-        <!-- Footer with Disclaimer -->
-        <footer class="text-center mt-12">
-            <p class="text-sm italic text-gray-600 px-4 mb-4">
-                This website is a non-commercial, educational tribute to the 16th-century scholar Gerolamo Cardano. It
-                is not affiliated with, nor endorsed by, any modern commercial entity.
-            </p>
-            <p class="text-xs text-gray-500">
-                <small>
-                    a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer"
-                            class="underline hover:text-gray-700">liminal mind meld</a></b> collaboration: digital
-                    monument by <b><a href="https://unearth.im" target="_blank" rel="noopener noreferrer"
-                            class="underline hover:text-gray-700">unearth.im</a></b> | <b><a
-                            href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer"
-                            class="underline hover:text-gray-700">archive & anvil</a></b>
-                </small>
-            </p>
-        </footer>
+    <!-- Footer with Disclaimer -->
+    <footer class="text-center mt-12">
+      <p class="text-sm italic text-gray-600 px-4 mb-4">
+        This website is a non-commercial, educational tribute to the 16th-century scholar Gerolamo Cardano. It
+        is not affiliated with, nor endorsed by, any modern commercial entity.
+      </p>
+      <p class="text-xs text-gray-500">
+        <small>
+          a <b><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer"
+              class="underline hover:text-gray-700">liminal mind meld</a></b> collaboration: digital
+          monument by <b><a href="https://unearth.im" target="_blank" rel="noopener noreferrer"
+              class="underline hover:text-gray-700">unearth.im</a></b> | <b><a href="https://archaeobytology.org"
+              target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-700">archive & anvil</a></b>
+        </small>
+      </p>
+    </footer>
 
-    </div>
+  </div>
 
 </body>
 
